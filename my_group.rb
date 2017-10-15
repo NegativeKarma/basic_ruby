@@ -46,3 +46,19 @@ my_group = [person_1[:name],
 my_group.each do|name|
   puts "Hello #{name}"
 end
+
+my_group = Array.new
+
+person_1 = {name: "Bob", gender: "male", age: 24}
+
+person_2 = {name: "Lucy", gender: "female", age: 32}
+
+person_3 = {name: "Ken", gender: "male", age: 64}
+
+my_group = [person_1,
+            person_2]
+
+my_group.select do|name, gender|
+  name == :name || gender == :gender
+  puts "Hello #{name} and #{gender}"
+end
