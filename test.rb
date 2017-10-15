@@ -17,3 +17,28 @@ else
     puts 'I\'m sorry, I don\'t understand'
   end
 end
+
+command = ' '
+
+while command != 'bucaiolo'
+  puts command
+  command = gets.chomp
+end
+
+puts 'scemo'
+
+while command != 'babbeo'
+  puts command, command = gets.chomp
+end
+
+puts 'grullo'
+
+i = 1
+num = 100
+while i == 1
+  puts ("#{i}bottle of beer on the wall, #{i} bottle of beer.")
+  while i < num do
+    puts ("#{i}bottles of beer on the wall, #{i} bottles of beer.")
+    i +=1
+  end
+end
