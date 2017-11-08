@@ -6,18 +6,19 @@ class Dog
     @name = name
   end
 
-dog = Dog.new('doberman', 'klaus')
+  Dog.new('doberman', 'klaus')
 
   def wag_tail
-    puts "Tail wagging"
+    puts 'Tail wagging'
   end
+
   def barking
-    puts "Barks at the moon"
+    puts 'Barks at the moon'
   end
-  def tag_address owner: "Scott", street: "7th avenue", number: 78
+
+  def tag_address(owner: 'Scott', street: '7th avenue', number: 78)
     puts owner
     puts street
     puts number
   end
-
 end

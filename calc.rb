@@ -1,18 +1,18 @@
-puts 1+2
+puts 1 + 2
 puts 1.0 + 2.0
 puts 2.0 * 3.0
 puts 5.0 - 8.0
 puts 9.0 / 2.0
-puts 1+2
-puts 2*3
-puts 5-8
-puts 9/2
-puts 5 * (12-8) + -15
-puts 98 + (59872 / (13*8)) * -52
+puts 1 + 2
+puts 2 * 3
+puts 5 - 8
+puts 9 / 2
+puts 5 * (12 - 8) + -15
+puts 98 + (59_872 / (13 * 8)) * -52
 puts 24 * 365
 puts 60 * 24 * 3650
-puts (60 * 60) * 24 * 365 *34
-puts 1298000000 / 60 / 60 / 24 / 365
+puts (60 * 60) * 24 * 365 * 34
+puts 1_298_000_000 / 60 / 60 / 24 / 365
 puts 'Hello, world!'
 puts ''
 puts 'Good-bye.'
@@ -35,7 +35,7 @@ puts car = 'Ferrari'
 puts 'I like ' + car + 's more'
 puts var = 'again ' + 'and again'
 puts var
-puts math = 5 * (3-12)
+puts math = 5 * (3 - 12)
 puts math
 puts 'What time is it?'
 time = gets
@@ -54,4 +54,4 @@ puts 'What\'s your favourite number?'
 number = gets.chomp
 puts number.to_i + 1
 puts 'is way better'
-number = gets.chomp ; puts "Your number is #{number.to_i}, but #{number.to_i + 1} would have been way better"
+number = gets.chomp; puts "Your number is #{number.to_i}, but #{number.to_i + 1} would have been way better"
